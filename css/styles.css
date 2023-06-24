@@ -888,6 +888,15 @@ img {
   fill: var(--third-background-color);
 }
 
+@media screen and (max-width: 427px) {
+  .menu-soc-list {
+    gap: 25px;
+  }
+  .menu-address-item:first-child {
+    font-size: 24px;
+  }
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
